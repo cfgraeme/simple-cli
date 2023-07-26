@@ -6,8 +6,8 @@ This project has been dockerized to ensure a reasonable level of predictability 
 
 To run, make sure docker is installed first, then use the docker-compose commands:
 
-docker-compose run cli
-docker-compose run tests
+`docker-compose run cli`  
+`docker-compose run tests`  
 
 ### Running and Testing Without Docker
 
@@ -32,4 +32,4 @@ python -m pytest
 
 In order to stay within the time limit and make sure I had working containers, I did not create quite as large of a test suite as I would have liked.
 
-I added some functionality for EXITing the CLI and NOOP operations for empty lines.
+I added some functionality for `EXIT`ing the CLI and `NOOP` operations for empty lines.
